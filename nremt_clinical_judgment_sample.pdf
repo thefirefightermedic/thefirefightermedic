@@ -1,0 +1,74 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | National Registry of Emergency Medical Technicians</title>
+
+    <meta name="description" content="National Registry of Emergency Medical Technicians: Page Not Found">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Page Not Found | National Registry of Emergency Medical Technicians">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nremt.org">
+    <meta property="og:image" content="https://nremt.org/icon.png">
+
+    <link rel="stylesheet" href="https://use.typekit.net/oyd2axz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <style>
+        html, body, * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 100%;
+            font-family: 'Bai Jamjuree', sans-serif;
+            color: #fff;
+        }
+
+        body {
+            background-image: url(/Content/Images/not-found.jpg);
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .logo {
+            position: absolute;
+            top: 1.5rem;
+            left: 1rem;
+            max-height: 3.6rem;
+            max-width: 75vw;
+        }
+
+        .wrapper {
+            display: grid;
+            justify-content: center;
+            margin-top: 36vh;
+            font-size: 1.2rem;
+        }
+
+        .error-heading {
+            font-family: Industry, 'Bai Jamjuree', sans-serif;
+            font-size: 3rem;
+            font-size: clamp(1rem, 9vw, 3.5rem);
+            text-shadow: 0px 0px 16px black;
+            text-transform: uppercase;
+            color: #fff;            
+        }
+    </style>
+</head>
+<body>
+    <a href="/"><img class="logo" src="/Content/Images/NREMT-Logo.png" alt="National Registry of Emergency Medical Technicians"></a>
+    <div class="wrapper">
+        <h1 class="error-heading">Page Not Found</h1>
+        <p>
+            <a href="/">Home</a>
+        </p>
+    </div>
+</body>
+</html>
